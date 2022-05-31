@@ -9,3 +9,5 @@ read in: Portugues | [English](README.en.md) | [日本語](README.ja.md)
 Desenvolver a página destinada a novas contratações de uma empresa de TI
 
 ### Dia 1 - Criar o cabeçalho da página
+
+### Dia 2 - Criar a seção sobre nós
