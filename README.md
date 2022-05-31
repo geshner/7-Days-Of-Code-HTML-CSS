@@ -19,3 +19,5 @@ Desenvolver a página destinada a novas contratações de uma empresa de TI
 ### Dia 5 - Criar a seção de vagas
 
 ### Dia 6 - Criar a seção de depoimentos
+
+### Dia 7 - Criar o rodapé da página
