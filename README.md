@@ -15,3 +15,5 @@ Desenvolver a página destinada a novas contratações de uma empresa de TI
 ### Dia 3 - Criar a seção de métricas
 
 ### Dia 4 - Criar a seção de "Estamos procurando por talentos"
+
+### Dia 5 - Criar a seção de vagas

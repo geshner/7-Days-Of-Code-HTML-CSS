@@ -165,3 +165,45 @@ button {
 .openings img {
     max-width: 100%;
 }
+
+.jobs-container {
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.jobs-container .job-type {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-color-black);
+    line-height: 1.875rem;
+    margin-bottom: 2rem;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem 1.75rem;
+    border: 1px solid #EAECF0;
+    border-radius: 1rem;
+    row-gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.position .position-title {
+    font-size: 1.12rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    color: var(--text-color-black);
+    vertical-align: text-top;
+}
+
+.position .position-info span{
+    color: var(--text-color-grey);
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-right: 1.5rem;
+}
