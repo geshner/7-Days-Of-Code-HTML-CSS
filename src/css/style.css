@@ -187,7 +187,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 1.5rem 1.5rem 1.75rem;
-    border: 1px solid #EAECF0;
+    border: 0.06rem solid #EAECF0;
     border-radius: 1rem;
     row-gap: 2rem;
     margin-bottom: 1.5rem;
@@ -206,4 +206,73 @@ button {
     font-weight: 500;
     line-height: 1.5rem;
     margin-right: 1.5rem;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 6rem;
+}
+
+.testimonials .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;    
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    background-color: #C3191908;
+    gap: 2rem;
+    max-width: 80%;
+}
+
+.quote, .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote {
+    gap: 1rem;
+}
+
+.quote span {
+    color: var(--main-color);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.quote .comment {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    letter-spacing: -2%;
+}
+
+.profile img {
+    margin-bottom: 1rem;
+}
+.profile .name {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--text-color-black);
+    margin-bottom: 0.25rem;
+}
+
+.profile .job-title {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: var(--text-color-grey);
 }
