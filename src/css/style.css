@@ -1,5 +1,6 @@
 :root {
-    --text-color: #667085;
+    --text-color-grey: #667085;
+    --text-color-black: #101828;
     --main-color: #8E2424;
 }
 
@@ -43,7 +44,7 @@ nav li:not(:first-child) {
 nav li a {
     text-decoration: none;
     line-height: 24px;
-    color: var(--text-color);
+    color: var(--text-color-grey);
     font-size: 16px;
 }
 
@@ -60,7 +61,7 @@ button {
     background: none;
     padding: 10px 18px;
     border: none;
-    color: var(--text-color);
+    color: var(--text-color-grey);
     cursor: pointer;
 }
 
@@ -87,12 +88,46 @@ button {
     font-size: 48px;
     line-height: 60px;
     letter-spacing: -2%;
+    color: var(--text-color-black);
 }
 
 .about-us p {
-    color: var(--text-color);
+    color: var(--text-color-grey);
     max-width: 50%;
     text-align: center;
     font-size: 20px;
     line-height: 30px;
+}
+
+.metrics-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+    padding: 0 112px 96px;
+}
+
+.metrics-container div {
+    width: 30%;
+}
+
+.metrics-container span {
+    color: var(--main-color);
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2%;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.metrics-container h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--text-color-black);
+    margin-bottom: 8px;
+}
+
+.metrics-container p {
+    color: var(--text-color-grey);
+    line-height: 24px;
 }
